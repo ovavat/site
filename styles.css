@@ -8,16 +8,84 @@
 body {
   font-family: 'Axiforma', Arial, sans-serif;
   background-color: #963cbd;
+  width: 100%;
+  height: 100%;
   color: white;
-  display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
   margin: 0;
+}
+
+h1 {
+  background-color: #963cbd;
+  font-family: 'Axiforma', Arial, sans-serif;
+  font-size: 54px;
+  color: whitesmoke;
+}
+
+h2 {
+  font-family: 'Axiforma', Arial, sans-serif;
+  font-size: 36px;
+}
+
+header {
+  background-color: ghostwhite;
+  color: #963cbd;
+  text-align: center;
+  margin-top: auto; /* Empurra o footer para baixo até o final do conteúdo */
+  height: auto; /* Ajuste conforme necessário */
+  width: 100%;
+}
+
+footer {
+  background-color: ghostwhite;
+  color: #963cbd;
+  text-align: center;
+  margin-bottom: auto; /* Empurra o footer para baixo até o final do conteúdo */
+  height: auto; /* Ajuste conforme necessário */
+  width: 100%;
+}
+
+nav {
+  padding: 3px;
+  background-color: ghostwhite;
+  color: #963cbd;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+}
+
+.menu-item {
+  margin: 0 10px;
+  padding: 5px 10px;
+  color: #963cbd;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.25s ease;
+}
+
+.menu-item:hover {
+  background-color: rgba(150, 60, 189, 0.2);
+}
+
+
+.header-container {
+  top: 0;
+  left: 0;
+  width: 100%;
+
+}
+
+.footer-container {
+  display: flex;
+  width: 100%;
 }
 
 .countdown-container {
   text-align: center;
+  padding-bottom: 25px;
 }
 
 .countdown-item {
@@ -27,29 +95,4 @@ body {
 
 .countdown-item span {
   font-size: 24px;
-}
-
-h1 {
-  font-family: 'Axiforma', Arial, sans-serif;
-  font-size: 36px;
-}
-
-header {
-  background-color: white;
-  color: #963cbd;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  top: 0;
-  width: 100%;
-}
-
-footer {
-  background-color: white;
-  color: #963cbd;
-  text-align: center;
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
 }
