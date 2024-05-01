@@ -96,3 +96,43 @@ nav {
 .countdown-item span {
   font-size: 24px;
 }
+
+.tweet-carousel {
+  text-align: center;
+  position: relative;
+  left: calc(50% - 275px);
+  overflow: hidden;
+  width: 80%; /* Defina a largura desejada para a div */
+  max-width: 600px; /* Defina o máximo para evitar que fique muito larga */
+}
+
+.tweet-item {
+  padding: 10px;
+  display: none;
+}
+
+.active {
+  display: block;
+}
+
+.prev-btn, .next-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: ghostwhite;
+  color: #963cbd;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.prev-btn {
+  left: 10px;
+}
+
+.next-btn {
+  right: 10px;
+}
+
+
