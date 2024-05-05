@@ -1,5 +1,5 @@
 let currentIndex = 0;
-const virais = document.querySelectorAll('.tweet-carousel .tweet-item');
+const virais = document.querySelectorAll('.countdown-container .tweet-item');
 const totalTweets = virais.length;
 
 function showTweet(index) {

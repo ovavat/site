@@ -97,42 +97,16 @@ nav {
   font-size: 24px;
 }
 
-.tweet-carousel {
-  text-align: center;
-  position: relative;
-  left: calc(50% - 275px);
-  overflow: hidden;
-  width: 80%; /* Defina a largura desejada para a div */
-  max-width: 600px; /* Defina o máximo para evitar que fique muito larga */
-}
-
 .tweet-item {
   padding: 10px;
   display: none;
+  max-width: 550px !important;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .active {
   display: block;
-}
-
-.prev-btn, .next-btn {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  background-color: ghostwhite;
-  color: #963cbd;
-  border: none;
-  padding: 10px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.prev-btn {
-  left: 10px;
-}
-
-.next-btn {
-  right: 10px;
 }
 
 select {
@@ -155,7 +129,22 @@ input {
   transition: background-color 0.3s ease;
 }
 
-/* Estilo quando o botão está sendo clicado */
-button:hover {
-  background-color: #963cbd;
+.carousel {
+  display: block;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.carousel-item {
+  flex: 0 0 100%;
+}
+
+button {
+  padding: 4px 20px;
+  font-size: 16px;
+  background-color: ghostwhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
 }
