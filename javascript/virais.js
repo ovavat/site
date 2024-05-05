@@ -1,12 +1,12 @@
 let currentIndex = 0;
-const tweets = document.querySelectorAll('.tweet-carousel .tweet-item');
-const totalTweets = tweets.length;
+const virais = document.querySelectorAll('.tweet-carousel .tweet-item');
+const totalTweets = virais.length;
 
 function showTweet(index) {
-    tweets.forEach(tweet => {
+    virais.forEach(tweet => {
         tweet.classList.remove('active');
     });
-    tweets[index].classList.add('active');
+    virais[index].classList.add('active');
 }
 
 function nextTweet() {
