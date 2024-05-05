@@ -135,4 +135,27 @@ nav {
   right: 10px;
 }
 
+select {
+  padding: 4px;
+  font-size: 16px;
+  background-color: ghostwhite;
+  border-radius: 5px;
+  margin-right: 10px;
+  border: none;
+}
 
+/* Estilo para o botão */
+input {
+  padding: 4px 20px;
+  font-size: 16px;
+  background-color: ghostwhite;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Estilo quando o botão está sendo clicado */
+button:hover {
+  background-color: #963cbd;
+}
