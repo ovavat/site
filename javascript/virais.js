@@ -1,23 +1,23 @@
 let currentIndex = 0;
-const virais = document.querySelectorAll('.countdown-container .tweet-item');
-const totalTweets = virais.length;
+const virais = document.querySelectorAll('.countdown-container .viral-item');
+const totalVirais = virais.length;
 
-function showTweet(index) {
-    virais.forEach(tweet => {
-        tweet.classList.remove('active');
+function showViral(index) {
+    virais.forEach(viral => {
+        viral.classList.remove('active');
     });
     virais[index].classList.add('active');
 }
 
-function nextTweet() {
-    currentIndex = (currentIndex + 1) % totalTweets;
-    showTweet(currentIndex);
+function nextViral() {
+    currentIndex = (currentIndex + 1) % totalVirais;
+    showViral(currentIndex);
 }
 
-function prevTweet() {
-    currentIndex = (currentIndex - 1 + totalTweets) % totalTweets;
-    showTweet(currentIndex);
+function prevViral() {
+    currentIndex = (currentIndex - 1 + totalVirais) % totalVirais;
+    showViral(currentIndex);
 }
 
 // Exibe o primeiro tweet ao carregar a página
-showTweet(currentIndex);
+showViral(currentIndex);
