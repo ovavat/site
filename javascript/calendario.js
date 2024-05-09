@@ -50,7 +50,7 @@ function displayImage(imageUrl) {
     const imageContainer = document.getElementById('imageContainer');
     imageContainer.innerHTML = '';
 
-    if (imageUrl.includes('caption.gif')) {
+    if (imageUrl.includes('alvinesquilo.gif')) {
         imageContainer.innerHTML = `<img src="${imageUrl}" alt="Fallback Image">`;
     } else {
         imageContainer.innerHTML = `<img class="calendario" src="${imageUrl}" alt="Imagem Selecionada">`;
