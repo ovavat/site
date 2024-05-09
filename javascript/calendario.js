@@ -24,7 +24,7 @@ async function getImageUrl(year, month) {
             return imageUrlGIF;
         } catch {
             // Fallback image if neither PNG nor GIF exists
-            return 'https://cdn.discordapp.com/attachments/269956805721980928/1236508492408295515/caption.gif?ex=663843c5&is=6636f245&hm=7c5c0d040424a6109739bb07ebe5c570e8df0f8bcc08ac87eeb671bd5ea89d8e&';
+            return 'https://raw.githubusercontent.com/ovavat/site/89f206c5b836b2bb4bb7e94fc2c59f7ff1cfe262/images/calendario/alvinesquilo.gif';
         }
     }
 }
