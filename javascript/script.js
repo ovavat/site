@@ -1,5 +1,5 @@
 function countdown() {
-  const targetDate = new Date('2024-09-01T00:00:00Z'); // Define a data de término do countdown
+  const targetDate = new Date('2024-05-31T21:00:00Z'); // Define a data de término do countdown
   const now = new Date();
   const difference = targetDate - now;
 
