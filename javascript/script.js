@@ -1,5 +1,5 @@
 function countdown() {
-  const targetDate = new Date('2024-06-01T00:00:00-03:00'); // Define a nova data de término do countdown em horário de Fortaleza
+  const targetDate = new Date('2024-06-01T21:00:00-03:00'); // Define a nova data de término do countdown em horário de Fortaleza
   const now = new Date();
   const difference = targetDate - now;
 
