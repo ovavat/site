@@ -1,10 +1,10 @@
 var playlists = [
-    { id: 'PL40AfEwi8Ke_F7l9OCQX3mypcpcyKKTQM', title: 'VP: O Vigilante | Season 1' },
-    { id: 'PL40AfEwi8Ke8md_RltMLJODIaCR6u7Vaz', title: 'VP: O Vigilante | Especiais Season 1' },
-    { id: 'PL40AfEwi8Ke--525cD4JC7qC0PyqsT-bH', title: 'VP: O Vigilante | Season 2' },
-    { id: 'PL40AfEwi8Ke_c307qxLjrMPBHix0zVlam', title: 'VP: O Vigilante | Final Season' },
-    { id: 'PL40AfEwi8Ke_36A6p1pom0Z_sKArWlemp', title: 'Supunhetamos | Season 1' },
-    { id: 'PL40AfEwi8Ke-nESxq2cOWCTAWm55rkWpq', title: 'Farmacêutico: Origens' }
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' },
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' },
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' },
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' },
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' },
+    { id: 'yItGWpzIzHiHMPDD', title: 'Osvaldo' }
 ];
 var currentSlide = 0;
 var player;
